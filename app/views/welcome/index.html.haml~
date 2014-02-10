@@ -1,0 +1,70 @@
+%h1 Hello, Rails!
+%div Supanut   Leardkarn         5410610165
+%div Parispan  Pansiri           5410610215
+%div Natchapon Chuikumnerd       5410612104
+%div Santiphab Rungrijvithayakul 5410611775
+%div Chaipat   Suebsantiworapong 5410611296
+
+%table{:border => "0"}
+  %tr
+    %td
+      %pre
+        :preserve
+           Feature 1 : Add the problem to Problempedia
+                       As an Admin
+           	     So that I can share the problem with either employees
+           	     I want to add the problem to Problempedia
+  %tr                 
+    %td
+      %pre
+        :preserve
+           Feature 2 : Add how to solve the problem to Problempedia
+                       As an employees
+          	     So that I know how to solve the problem, I can share this with other employees
+           	     I want to add how to solve the problem to Problempedia
+  %tr                   
+    %td  
+      %pre
+        :preserve
+           Feature 3 : Search the problem to Problempedia 
+                       As an employees
+           	     So that I can search the problem on Problempedia
+           	     I want to search the problem on Problempedia database
+  %tr                   
+    %td 
+      %pre
+        :preserve
+           Feature 4 : Delete the problem to Problempedia
+                       As an Admin
+           	     So that I can delete the problem on Problempedia
+           	     I want to delete the problem on Problempedia database
+  %tr                   
+    %td
+      %pre
+        :preserve
+           Feature 5 : Delete the solve that break the rules
+                       As an Admin
+          	     So that I can delete the solve problem that break the rules
+           	     I want to delete the solve problem that break the rules
+  %tr                   
+    %td
+      %pre
+        :preserve
+           Feature 6 : Show the unsolved problem
+                       As an everyone
+           	     So that I can see the unsolved problem
+           	     I want to see the unsolved problem
+  %tr                   
+    %td
+      %pre
+        :preserve
+          Feature 7 : Show the solved problem
+                      As an everyone
+           	    So that I can see the solved problem
+           	    I want to see the solved problem
+
+%img{src: "assets/ER.jpg"}/
+%img{src: "assets/story.jpg"}/
+%img{src: "assets/lofi.jpg"}/
+
+
